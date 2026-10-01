@@ -30,7 +30,7 @@
     </div>
 
     <!-- 版本列：判斷「看到的是不是剛部署的那一版」只看這一行。版本號來自 Assets/Scripts/Core/VowVersion.cs，建置時間與 commit 由建置腳本寫入。 -->
-    <div id="vow-version">VOW CAMERA LAB · 搖桿／滑動試作 · 基底 v0.13.1<br>build 2026-10-01 15:11 UTC · 5e119ba</div>
+    <div id="vow-version">VOW CAMERA LAB · 搖桿／滑動試作 · 基底 v0.14.0<br>build 2026-10-01 15:30 UTC · e60a215</div>
 
     <script src="Build/WebGL.loader.js"></script>
     <script>
@@ -52,7 +52,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "VOW",
         productName: "VOW",
-        productVersion: "0.13.1",
+        productVersion: "0.14.0",
         // 手機的 devicePixelRatio 常為 3：全解析度渲染對 WebGL 太重，上限壓在 2
         devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
         showBanner: function (message, type) { if (type === "error") showError(message); else console.warn(message); }
